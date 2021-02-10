@@ -1,0 +1,19 @@
+9 feb, 2021
+
+Vi kom fram till 2 lösningar, varav den 1a är mer realistisk, och 2 är om vi vill använda hårdvara: 
+
+1) Skapar låtsas värme-sensorer i Node Red som läser av om något varmt rör sig utanför vår dörr. 
+Om sensorn känner av något skickar den en signal till en mqtt-broker.
+En subscriber till mqtt-brokern skickar vidare signalen till en lampa, som i sin tur byter färg vid specifik data
+
+2) Skapar ett system som märker av när en viss mobiltelefon joinar wifi-nätverket.
+Om den gör det antar vi att en specifik person har kommit hem.
+När mobilen ansluter till nätverket skickas en signal till en mqtt-broker.
+Subscribers skickar vidare signalen till en lampa, som byter färg.
+
+Tills på fredag (12/2) ska vi göra lätta administrativa uppgifter: 
+
+Ihisan: Skapa gemensam kommunikationskanal på discord
+Kevin: Skapa gemensamt github-repo och bjuda in alla att delta, samt lägga upp denna text som första commit
+Alex: Protokollföra första mötet, samt bjuda in Marco till Jira-projektet
+Marco: Läsa ikapp på allt
