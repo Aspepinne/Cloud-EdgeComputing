@@ -1,0 +1,12 @@
+Protokoll 12 feb
+
+Alla gjorde "läxan" till idag.
+
+Till nästa lektion ska alla komma ikapp med node red, aws och hemsidan som vi skapade under lektionstid 12 feb.
+Vi har även spikat att, angående projektet vi arbetar med så kommer vi till en början satsa på att bara bygga en MVP
+Detta inkluderar att våra mål enbart är att få enkla saker att fungera. Får vi tid över kan vi utveckla den.
+
+Därför har vi bestämt att hemsidan bara ska visa något i stil med:
+
+"Någon står utanför dörren: Sant/Falskt" beroende på vad vår låtsas-sensor skickar för data.
+(en roligare ide är att presentera en karta över exakt var människan befinner sig, men det är ett framtida projekt)
