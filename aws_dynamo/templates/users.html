@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sensors</title>
+</head>
+<body>
+    <h1>Control panel</h1>
+    <a href="/">Main Page</a> <br />
+    <h2>Infrared sensor</h2>
+    <table>
+        <tr>
+            <th>Sensor name</th>
+            <th>Timestamp</th>
+            <th>Distance</th>
+            <th>Temperature</th>
+        </tr>
+        {% for sensor in  main_door_1 %}
+            <tr>
+                <td style="text-align:center">{{ sensor['sensorname'] }}</td>
+                <td style="text-align:center">{{ sensor['info']['timestamp'] }}</td>
+                <td style="text-align:center">{{ sensor['info']['distance'] }}</td>
+                <td style="text-align:center">{{ sensor['info']['temp'] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+        <h2>Temperature control</h2>
+    <table>
+        <tr>
+            <th>Sensor name</th>
+            <th>Timestamp</th>
+            <th>Distance</th>
+            <th>Temperature</th>
+        </tr>
+        {% for sensor in main_door_2 %}
+            <tr>
+                <td style="text-align:center">{{ sensor['sensorname'] }}</td>
+                <td style="text-align:center">{{ sensor['info']['timestamp'] }}</td>
+                <td style="text-align:center">{{ sensor['info']['distance'] }}</td>
+                <td style="text-align:center">{{ sensor['info']['temp'] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

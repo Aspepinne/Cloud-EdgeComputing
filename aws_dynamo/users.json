@@ -1,0 +1,32 @@
+[
+  {
+    "userid": 1,
+    "username": "EvaL",
+    "info": {
+      "first_name": "Eva",
+      "last_name": "Larsson",
+      "email": "eva@email.com",
+      "street_address": {
+        "street_name": "Storgatan",
+        "street_no": "73A",
+        "zip_code": "123 45",
+        "city": "Storstan"
+      }
+    }
+  },
+  {
+    "userid": 2,
+    "username": "PelleP",
+    "info": {
+      "first_name": "Pelle",
+      "last_name": "Persson",
+      "email": "pelle@email.com",
+      "street_address": {
+        "street_name": "Smågatan",
+        "street_no": "4",
+        "zip_code": "54 321",
+        "city": "Småstan"
+      }
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "sensorid": 1,
+    "sensorname": "main_entrance_1",
+    "type": "infra_red",
+    "status": "online",
+    "armed": "true"
+  },
+  {
+    "sensorid": 2,
+    "sensorname": "main_entrance_2",
+    "type": "rangefinder",
+    "status": "online",
+    "armed": "true"
+  }
+]
