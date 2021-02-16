@@ -1,0 +1,13 @@
+Protokoll 2/16	
+
+Idag arbetade alla tillsammans med 3 saker:
+
+1. Att planera en struktur för datan i databasen
+2. Att skapa en databas med random data (i json format)
+3. Visualisera datan i form av en log på hemsidan
+
+Steg 1 & 2 blev klara, steg 3 blev vi klara med en MVP. 
+
+Det vi har i steg tre är en log på en hemsida där informationen visas upp. 
+Rådatan är ju bara halv-intressant, så vi vill även visa upp en analys av datan.
+Tills nästa lektion ska vi alla tänka på hur vi kan presentera analysen av data.
