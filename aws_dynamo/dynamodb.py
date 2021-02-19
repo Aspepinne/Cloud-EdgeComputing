@@ -2,13 +2,14 @@ import boto3
 import json
 from botocore.exceptions import ClientError
 from boto3.dynamodb.conditions import Key, Attr
+from config import *
 
 
 def get_resource():
     return boto3.resource('dynamodb',
-                              aws_access_key_id='',
-                              aws_secret_access_key='',
-                              region_name='eu-north-1')
+                              aws_access_key_id=ACCESS_KEY,
+                              aws_secret_access_key=SECRET_ACCESS_KEY,
+                              region_name=REGION)
 
 
 # def create_user_table(dynamodb=None):
@@ -142,6 +143,7 @@ def store_Sensors(sensors, dynamodb=None):
         print(f'Adding sensor {sensor["sensorname"]}')
         table.put_item(Item=sensor)
 
+
 def get_all_sensors(dynamodb=None):
     if not dynamodb:
         dynamodb = get_resource()
@@ -154,6 +156,7 @@ def get_all_sensors(dynamodb=None):
         print(e.response['Error']['Message'])
     else:
         return response['Items']
+
 
 def get_all_by_sensorname(sensorname, dynamodb=None):
     if not dynamodb:

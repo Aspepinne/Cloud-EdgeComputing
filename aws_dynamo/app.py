@@ -10,7 +10,7 @@ def index():
 
 
 @app.route('/sensors')
-def get_Sensors():
+def get_sensors():
     main_door_1 = get_all_by_sensorname('main_door_1')
     main_door_2 = get_all_by_sensorname('main_door_2')
     return render_template('users.html', main_door_1=main_door_1, main_door_2=main_door_2)
