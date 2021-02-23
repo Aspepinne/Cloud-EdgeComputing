@@ -1,0 +1,9 @@
+Protokoll 19/2 
+
+Det blev en kortare dag idag för halva gruppen kunde bara stanna till kl 13. 
+Vi arbetade med att få våra sensorer att fungera, lyckades nästan hela vägen.
+
+Vi bestämde att satsa på React istället för Jquery + Ajax,
+för att lösa så att hemsidan uppdateras så fort sensorn skickar data.
+Därför spenderar vi helgen med att läsa på om React för att sedan
+ses på måndag igen och försöka få det att fungera.

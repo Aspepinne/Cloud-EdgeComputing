@@ -1,0 +1,12 @@
+Protokoll 22 feb
+
+Under helgen tog Marco fram ett snyggare sätt att presentera datan på 
+via css-kod. Alexandra byggde en ny React app i hopp om att det skulle
+kunna lägga basen för vår hemsida. Det gick inte alls att copy-pastea och 
+blev riktigt krångligt. Problemet ligger i att vår databas/backend är skriven
+i python medan frontenden/react är skriven i javascript. Vi gav upp när
+vi inte lyckades få dessa två program att prata med varandra. Men det ska
+gå. Vi kollar på det igen när vi har tålamod för det... Tanken är att lägga
+in Marcos css-kod in i React så fort vi får den att fungera. 
+
+Vi ses imorgon igen på lektionen och arbetnar vidare.

@@ -1,0 +1,10 @@
+Protokoll 23 feb
+
+Alla har fortsatt att arbeta tillsammans på samtliga uppgifter. Det vi lyckades med idag var:
+
+- Att koppla rätt slags data från NodeRed till vår databas.
+- Att lägga till en lambdafunktion i aws som översätter vår celsius temperatur till fahrenheit.
+- Att lägga in Marcos .css kod på hemsidan.
+
+Det vi inte lyckades med var: 
+- React. Därför ger vi upp den helt nu och statsar på jQuery och Ajax istället. Vi har precis påbörjat detta.

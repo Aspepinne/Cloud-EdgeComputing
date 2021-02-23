@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<link rel="stylesheet" href="{{ url_for('static', filename='/css/main.css') }}">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Sensors</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<script>
-window.setInterval(
-     function() {
-     $("#content").load("/load");
-     }, 5000);
-</script>
-
-</head>
-<body>
-<div id="content">
 
     <h1>Control panel</h1>
     <h1></h1>
@@ -27,12 +8,14 @@ window.setInterval(
         <tr>
             <th>Sensor name</th>
             <th>Timestamp</th>
+<!--            <th>Distance</th>-->
             <th>Temperature</th>
         </tr>
         {% for sensor in  main_door_1 %}
             <tr>
                 <td>{{ sensor['sensorname'] }}</td>
                 <td>{{ sensor['info']['timestamp'] }}</td>
+<!--                <td>{{ sensor['info']['distance'] }}</td>-->
                 <td>{{ sensor['info']['temp'] }}</td>
             </tr>
         {% endfor %}
@@ -55,9 +38,3 @@ window.setInterval(
             </tr>
         {% endfor %}
     </table>
-
-</div>
-
-</body>
-
-</html>

@@ -8,12 +8,18 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/load')
+def load():
+    main_door_1 = get_all_by_sensorname('main_door_1')
+    main_door_2 = get_all_by_sensorname('main_door_2')
+    return render_template('load.html', main_door_1=main_door_1, main_door_2=main_door_2)
+
 
 @app.route('/sensors')
 def get_sensors():
     main_door_1 = get_all_by_sensorname('main_door_1')
     main_door_2 = get_all_by_sensorname('main_door_2')
-    return render_template('users.html', main_door_1=main_door_1, main_door_2=main_door_2)
+    return render_template('users.html',main_door_1=main_door_1, main_door_2=main_door_2)
 
 
 if __name__ == '__main__':

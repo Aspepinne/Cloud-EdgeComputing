@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background-color: black;
+    vertical-align: middle;
+
+}
+
+  h1 {
+    margin: auto;
+    height: 60px;
+    width: 466px;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    font-style:italic;
+    display: inline;
+
+  }
+
+  h2 {
+    margin: auto;
+    width: 466px;
+    border: 4px solid white;
+    padding: 3px;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  th {
+    margin: auto;
+    width: 10%;
+    border: 3px solid black;
+    padding: 3px;
+    background-color:honeydew;
+    width: 10px;
+    height: 30px;
+  }
+
+  td {
+    margin: auto;
+    border: 3px solid black;
+    padding: 6px;
+    background-color:honeydew;
+    max-width: 466px;
+    min-height: 200px;
+  }
+
+
+  table  {
+    margin: auto;
+    border: 5px solid black;
+    padding: 6px;
+    background-color:silver;
+    max-width: 466px;
+    min-height: 200px;
+  }
