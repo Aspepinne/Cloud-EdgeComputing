@@ -1,0 +1,11 @@
+Protokoll 24 feb
+
+Igårkväll, efter att våra hjärnor var för trötta för att programmera mer, fick Kevin en brain wave.
+Han lyckades lösa vårt problem med att kunna uppdatera hemsidan inom en specifik intervall utan att hela sidan
+refreshas med hjälp av 4 rader kod (typ). Vi är supernöjda.
+
+Dagen spenderades därför mest i html, ajax och css. Vi vill nämligen att första infon användaren ser är 
+"Someone's at the door" eller "No one is at the door", snarare än data om temperatur och avstånd. Därför 
+har vi försökt få första sidan att läsa av databasen så att den kan reagera olika beroende på vilken 
+temperatur som registreras. Vi gav det många försök, men lyckades inte. Och efter 3 dagar av programmering
+i sträck kände vi att vi var rätt nöjda ändå, och lämnar projektet fram till på fredag. 
