@@ -2,8 +2,8 @@ from dynamodb import get_all_sensors, create_sensor_table, store_Sensors
 import json
 
 def main():
-    #create_sensor_table()
-    #store_Sensors()
+    # create_sensor_table()
+    # store_Sensors()
     # with open('sensor_data.json', 'r') as f:
     #     data = json.load(f)
     #     store_Sensors(data)

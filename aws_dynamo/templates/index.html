@@ -4,20 +4,28 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-    window.setInterval({% for sensor in  main_door_1 %}
-{% if  sensor['info']['temp']  >= 35 and sensor['info']['temp'] <= 40%}
-     $("#alert").load("/someoneoutside");}
-      {% else %}
-      function() {
-     $("#alert").load("/nooneoutside");}
-      {% endif %}
-      {% endfor %}
-, 1000);
+        setInterval(()=>{
+            $.ajax(
+            {
+                url: "/check",
+                success: (result) => {
+                    temp = JSON.parse(result)[0]['info']['temp'];
+                    temp = parseInt(temp, 10);
+                    if(temp >= 35 && temp <= 40){
+                        $("#alert").load("/someoneoutside");
+                    }
+                    else {
+                        $("#alert").load("/nooneoutside");
+                    }
+                    console.log(temp);
+                }
+            });
+        }, 1000);
     </script>
     <meta charset="UTF-8">
     <title>Sensor</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='/css/main.css') }}">
-    <h1>Sensor</h1>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/index.css') }}">
+    <h2>Sensor</h2>
     <a href="/">main page</a>
     <a href="/sensors">Sensors</a>
 

@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color: black;
+    vertical-align: middle;
+
+}
+
+  h2 {
+    margin: auto;
+    height: 60px;
+    width: 466px;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-style:italic;
+    display: inline;
+
+  }
