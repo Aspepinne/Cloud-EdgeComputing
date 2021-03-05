@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='/css/index.css') }}">
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -21,16 +22,20 @@
                 }
             });
         }, 1000);
+
     </script>
     <meta charset="UTF-8">
     <title>Sensor</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='/css/index.css') }}">
-    <h2>Sensor</h2>
-    <a href="/">main page</a>
-    <a href="/sensors">Sensors</a>
+
 
 </head>
 <body>
+        <button style="background-color:grey;">
+        <a href="/">Main page</a>
+        </button>
+        <button>
+        <a href="/sensors">Sensors</a>
+    </button>
 <div id="alert">
 </div>
 

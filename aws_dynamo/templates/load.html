@@ -8,14 +8,12 @@
         <tr>
             <th>Sensor name</th>
             <th>Timestamp</th>
-<!--            <th>Distance</th>-->
             <th>Temperature</th>
         </tr>
         {% for sensor in  main_door_1 %}
             <tr>
                 <td>{{ sensor['sensorname'] }}</td>
                 <td>{{ sensor['info']['timestamp'] }}</td>
-<!--                <td>{{ sensor['info']['distance'] }}</td>-->
                 <td>{{ sensor['info']['temp'] }}</td>
             </tr>
         {% endfor %}
@@ -27,14 +25,12 @@
             <th>Sensor name</th>
             <th>Timestamp</th>
             <th>Distance</th>
-<!--            <th>Temperature</th>-->
         </tr>
         {% for sensor in main_door_2 %}
             <tr>
                 <td>{{ sensor['sensorname'] }}</td>
                 <td>{{ sensor['info']['timestamp'] }}</td>
                 <td>{{ sensor['info']['distance'] }}</td>
-<!--                <td>{{ sensor['info']['temp'] }}</td>-->
             </tr>
         {% endfor %}
     </table>

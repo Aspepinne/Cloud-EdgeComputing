@@ -1,0 +1,19 @@
+Protokoll 2 mars
+
+Sist vi arbetade med projektet blev vi - jag tror knappt jag vågar säga detta nu - klara.
+Programmet gör exakt vad den ska, med andra ord. 
+
+Så idag har vi mest arbetat med att finslipa saker. Alla har fått olika ansvarsområden: 
+
+Kevin: 	Rensa spökkod och byt ut dåliga namn på variabler så koden är enklare att förstå
+Ihisan: Ändra länkarna på hemsidan till snyggare knappar
+Marco: 	Fixa roligare färger på texter och titlar på hemsidan
+Alex: 	Läste någonstans att automatiskt spela musik på en hemsida räknas som riktigt dålig UX. 
+	Därför insisterar hon på att vår hemsida behöver just detta, och spenderar veckan med att lösa detta.
+
+Med andra ord arbetar 3/4 av gruppens medlemmar med att göra programmet och hemsidan bättre, 
+medans en aktivt arbetar för att göra den sämre. Ett helt vanligt grupparbete med andra ord. 
+
+Då vi fortfarande har 1v kvar innan projktet ska lämnas in kanske vi även kommer lägga tid på att
+involvera hårdvara i programmet. Alex har nämligen en hub och en Philips lampa vi kan leka med. 
+Eller så lägger vi den tiden på att plugga inför tentan. Vi får se!

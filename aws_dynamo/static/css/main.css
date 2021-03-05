@@ -57,3 +57,20 @@ body {
     max-width: 466px;
     min-height: 200px;
   }
+
+    a {
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+  }
+
+
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
+
