@@ -1,0 +1,28 @@
+Protokoll 5 & 9 mars
+
+5 mars insåg vi att vi behövde mer tid för att arbeta med områdena vi tilldelades i tisdags,
+så inget nytt hände här.
+
+9e mars
+
+- All spökkod är spårlöst försvunnen
+- Vi har snyggat till knapparna till main- och sensor-sidan. 
+- Sista fixepill med html/css är också gjord
+- Och idén om att musik ska spelas är slopad då det inte funkar med vår kod. 
+  Ajax ber om ny information varje sekund, vilket gör att musiken bara spelas i en sekund. Pointless.
+
+Vi arbetade även vidare med vad och hur vi skulle presentera olika delar och resultatet blev såhär: 
+
+PRESENTAION BAKGRUND - ALEXANDRA
+JIRA - ALEXANDRA
+NODERED - ALEXANDRA
+
+HEMSIDAN - MARCO
+
+AWS UPPKOPPLINGEN - IHISAN
+
+SOURCECODE - KEVIN
+
+UTVECKLINGSMÖJLIGHETER - IHISAN/ALEXANDRA
+
+Vi valde att inte gå vidare med arbetet då vi har tenta på fredag. Fokus ligger på tentan. 
